@@ -25,7 +25,7 @@ const Header = () => {
         </Side>
         <Nav>
           <NavLink href="/sale">Sale</NavLink>
-          <NavLink href="/new">New&nbsp;Releases</NavLink>
+          <NavLink href="/new">New&nbsp;Releasessssssssssssssssss</NavLink>
           <NavLink href="/men">Men</NavLink>
           <NavLink href="/women">Women</NavLink>
           <NavLink href="/kids">Kids</NavLink>
@@ -60,11 +60,12 @@ const MainHeader = styled.div`
   padding: 18px 32px;
   height: 72px;
   border-bottom: 1px solid ${COLORS.gray[300]};
+  overflow-y: auto;
 `;
 
 const Nav = styled.nav`
   display: flex;
-  gap: 48px;
+  gap: clamp(2rem, 4vw + 1rem, 6rem);
   margin: 0px 48px;
   @media ${QUERIES.tabletAndSmaller} {
     display: none;
